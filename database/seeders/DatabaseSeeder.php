@@ -14,8 +14,8 @@ class DatabaseSeeder extends Seeder
     {
         //creo un account falso per gestire
         \App\Models\User::factory()->create([
-            'name' => 'Biagio',
-            'email' => 'biagio@ciao.it',
+            'name' => 'Mateusz',
+            'email' => 'mateusz@ciao.it',
         ]);
 
         // \App\Models\User::factory(10)->create();
